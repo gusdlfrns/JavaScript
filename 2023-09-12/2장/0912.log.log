@@ -1,0 +1,58 @@
+3+7
+10
+prompt("종료하시겠습니까?(예/아니오)","예")
+'예'
+name="이동윤"
+'이동윤'
+console.log(name+"님 환영합니다")
+VM771:1 이동윤님 환영합니다
+undefined
+document.write("제 이름은 "+name+"입니다.")
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1116:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(익명) @ VM1116:1
+let age 27
+VM1146:1 Uncaught SyntaxError: Unexpected number
+let age = 27
+undefined
+console.log(name+"님 나이는 "+age"입니다.")
+VM1365:1 Uncaught SyntaxError: missing ) after argument list
+console.log(name+"님 나이는 "+age+"입니다.")
+VM1371:1 이동윤님 나이는 27입니다.
+undefined
+console.log(`${name}님의 나이는 ${age}세 입니다.`)
+VM1470:1 이동윤님의 나이는 27세 입니다.
+undefined
+let student = { major : "컴퓨터공학부" , idNum : 201695065,
+               name : "이동윤"
+              }
+undefined
+student
+{major: '컴퓨터공학부', idNum: 201695065, name: '이동윤'}
+student.name
+'이동윤'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member ={
+    name : "이동윤",
+    [id] : 12345,
+}
+undefined
+member
+{name: '이동윤', Symbol(): 12345}
+member[id]
+12345
